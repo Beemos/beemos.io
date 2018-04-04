@@ -1,13 +1,17 @@
-button {
+button,
+a {
   cursor: pointer;
 }
-
+ul li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0;
+}
 nav ul {
   margin: 0 30px 83px;
-  padding-left: 0;
   padding-top: 40px;
   display: flex;
-  list-style-type: none;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -18,7 +22,7 @@ button:not(#app-button) {
   background-color: #db3e3e;
   color: #fff;
   @media(max-width: 992px) {
-    padding:  10px 70px;
+    padding:  10px 35px;
   }
 }
 
@@ -27,7 +31,8 @@ button:not(#app-button) {
   border: 0;
 }
 
-main {
+main,
+footer {
   margin: 0 50px;
 }
 
@@ -144,11 +149,32 @@ main {
   }
 }
 
+#contact-section {
+  margin-bottom: 20px;
+}
+
 @media(max-width: 992px) {
   .sm-div,
   #icon-section div {
     width: 100%;
     display: block;
     margin: 0 auto;
+  }
+}
+
+// Footer
+
+Footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  li {
+    display: inline-block;
+  }
+  ul li:first-child::after {
+    content: '\2022';
+    padding: 0 15px;
+    color: #db3e3e;
+
   }
 }

@@ -2,6 +2,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
+// fonts
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-heavy: 700;
+$font-height: 1.5;
+
 // colors
 $dark-grey: #333447;
 $dark-gray: #333447; // for the Americans
@@ -17,6 +23,11 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+}
+
+* {
+  color: $dark-grey;
+  line-height: $font-height;
 }
 
 // typography

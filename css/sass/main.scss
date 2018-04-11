@@ -2,6 +2,10 @@
   font-family: 'PT Sans';
 }
 
+body {
+  background-image: url("../../assets/OMEGGK1.svg");
+}
+
 button,
 a {
   cursor: pointer;
@@ -13,7 +17,7 @@ ul {
   padding-left: 0;
 }
 nav ul {
-  margin: 0 30px 83px;
+  margin: 0 30px 0px;
   padding-top: 40px;
   display: flex;
   flex-direction: row;
@@ -40,6 +44,10 @@ footer {
   margin: 0 50px;
 }
 
+main {
+  padding-top: 83px;
+}
+
 // Hero section
 #hero-section {
   max-width: 1375px;
@@ -50,7 +58,7 @@ footer {
     max-width: 1170px;
     margin: 0 auto 83px;
     text-align:  center;
-    border-bottom: 3px solid #f7f7f7;
+    border-bottom: 3px solid #fce3eb;
     h1 {
       margin: 0;
       font-size: 0;
@@ -75,7 +83,7 @@ footer {
   text-align: center;
   margin: 10px auto 88px;
   padding-bottom: 86px;
-  border-bottom: 3px solid #f7f7f7;
+  border-bottom: 3px solid #fce3eb;
   div {
     display: inline-block;
     max-width: 384px;
@@ -102,7 +110,7 @@ footer {
   max-width: 1170px;
   margin: 10px auto 88px;
   padding-bottom: 86px;
-  border-bottom: 3px solid #f7f7f7;
+  border-bottom: 3px solid #fce3eb;
   h2 {
     font-size: 27px;
   }

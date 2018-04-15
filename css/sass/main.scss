@@ -187,6 +187,17 @@ Footer {
     content: '\2022';
     padding: 0 15px;
     color: #db3e3e;
-
   }
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.text-block {
+  margin: 0 auto;
+  max-width: 50%;
 }

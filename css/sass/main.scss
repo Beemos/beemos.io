@@ -198,6 +198,10 @@ a:hover {
 }
 
 .text-block {
+  @media(max-width: 992px) {
+    max-width: 94%;
+    padding: 1%;
+  }
   margin: 0 auto;
   max-width: 50%;
 }

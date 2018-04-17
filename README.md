@@ -1,5 +1,5 @@
 # beemos.io
 
-'gulp sass' to build css
+`gulp sass` to build css
 
-'gulp sass:watch' to run watch
+`gulp sass:watch` to run watch

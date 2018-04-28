@@ -1,21 +1,21 @@
 {
-  "name": "beemosreact",
+  "name": "TreeMonster.co",
   "version": "1.0.0",
-  "description": "Landing page for Beemos - reAct IOS app",
+  "description": "Landing page for TreeMonster.co - Re-Act! iOS app",
   "main": "js/index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesseaborden/beemosreact.git"
+    "url": "git@github.com:TreeMonsterLLC/treemonster.co.git"
   },
   "author": "Jesse Borden",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jesseaborden/beemosreact/issues"
+    "url": "https://github.com/TreeMonsterLLC/treemonster.co/issues"
   },
-  "homepage": "https://github.com/jesseaborden/beemosreact#readme",
+  "homepage": "https://github.com/TreeMonsterLLC/treemonster.co",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.2.1"

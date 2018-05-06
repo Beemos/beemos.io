@@ -183,7 +183,7 @@ Footer {
   li {
     display: inline-block;
   }
-  ul li:first-child::after {
+  ul li:not(:last-child)::after {
     content: '\2022';
     padding: 0 15px;
     color: #db3e3e;
